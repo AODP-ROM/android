@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- AODP additions & overrides -->
+  <remove-project name="LineageOS/android" />
+  <project path="android" name="AODP-ROM/android" />
+  <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
+  <project path="packages/apps/CMUpdater" name="AODP-ROM/android_packages_apps_CMUpdater" />
+</manifest>
