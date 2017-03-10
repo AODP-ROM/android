@@ -6,4 +6,6 @@
   <project path="android" name="AODP-ROM/android" />
   <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMUpdater" name="AODP-ROM/android_packages_apps_CMUpdater" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="AODP-ROM/android_frameworks_base" />
 </manifest>
