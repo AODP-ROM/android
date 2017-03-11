@@ -6,7 +6,7 @@
   <project path="android" name="AODP-ROM/android" />
 
   <remove-project name="LineageOS/android_build" />
-  <project path="build" name="AODP-ROM/android_build" groups="pdk,tradefed" remote="aodp">
+  <project path="build" name="AODP-ROM/android_build" groups="pdk,tradefed">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
