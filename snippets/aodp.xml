@@ -13,7 +13,7 @@
   <remove-project name="LineageOS/android_vendor_cm" />
   <project path="vendor/cm" name="AODP-ROM/android_vendor_cm" />
 
-  <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
   <project path="packages/apps/CMUpdater" name="AODP-ROM/android_packages_apps_CMUpdater" />
 
   <remove-project name="LineageOS/android_packages_apps_Settings" />
