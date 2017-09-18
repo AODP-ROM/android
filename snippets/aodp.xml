@@ -23,7 +23,7 @@
   <project path="frameworks/base" name="AODP-ROM/android_frameworks_base" />
 
   <!-- Open GApps -->
-  <project path="vendor/google/build" name="opengapps/aosp_build" revision="master" />
+  <project path="vendor/opengapps/build" name="opengapps/aosp_build" revision="master" />
   <project path="vendor/opengapps/sources/all" name="opengapps/all" clone-depth="1" revision="master" />
 
   <!-- arm64 depends on arm -->
